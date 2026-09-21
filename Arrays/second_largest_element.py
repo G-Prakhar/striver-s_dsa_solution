@@ -1,3 +1,8 @@
+"""Edge case: the array can have duplicates
+which means that even after getting the 
+second last element of a sorted array it doesn't 
+needs to be second largest."""
+
 def secondlargensmall(arr: List[int]) -> int:
     largest = arr[0]
     secondlargest = float('-inf')
